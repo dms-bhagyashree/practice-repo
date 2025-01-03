@@ -123,5 +123,6 @@
             <requiredInput href="#node_6"/>
         </informationRequirement>
     </decision>
-</definitions></definition>
+</definitions>
+</definition>
 </com.ibm.rules.studio.model.decisionmodel:DecisionModel>
