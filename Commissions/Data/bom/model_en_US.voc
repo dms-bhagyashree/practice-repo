@@ -1,0 +1,47 @@
+
+# com.ibm.ads.samples.compensation.commissions.data.Channel
+com.ibm.ads.samples.compensation.commissions.data.Channel#concept.label = channel
+com.ibm.ads.samples.compensation.commissions.data.Channel.direct#instance.label = Direct
+com.ibm.ads.samples.compensation.commissions.data.Channel.indirect#instance.label = Indirect
+
+# com.ibm.ads.samples.compensation.commissions.data.CommissionMethod
+com.ibm.ads.samples.compensation.commissions.data.CommissionMethod#concept.label = commission method
+com.ibm.ads.samples.compensation.commissions.data.CommissionMethod.revenueCommissions#instance.label = Revenue commissions
+com.ibm.ads.samples.compensation.commissions.data.CommissionMethod.tieredCommissions#instance.label = Tiered commissions
+
+# com.ibm.ads.samples.compensation.commissions.data.Product
+com.ibm.ads.samples.compensation.commissions.data.Product#concept.label = product
+com.ibm.ads.samples.compensation.commissions.data.Product.services#instance.label = Services
+com.ibm.ads.samples.compensation.commissions.data.Product.software#instance.label = Software
+com.ibm.ads.samples.compensation.commissions.data.Product.subscription#instance.label = Subscription
+
+# com.ibm.ads.samples.compensation.commissions.data.Tier
+com.ibm.ads.samples.compensation.commissions.data.Tier#concept.label = tier
+com.ibm.ads.samples.compensation.commissions.data.Tier.Tier(double,double,double)#phrase.navigation = a new {tier} where {0, max} {1, min} {2, rate}
+com.ibm.ads.samples.compensation.commissions.data.Tier.max#phrase.action = set the max of {this} to {max}
+com.ibm.ads.samples.compensation.commissions.data.Tier.max#phrase.addition_setter = add {max} to the max of {this}
+com.ibm.ads.samples.compensation.commissions.data.Tier.max#phrase.navigation = {max} of {this}
+com.ibm.ads.samples.compensation.commissions.data.Tier.max#phrase.subtraction_setter = subtract {max} from the max of {this}
+com.ibm.ads.samples.compensation.commissions.data.Tier.min#phrase.action = set the min of {this} to {min}
+com.ibm.ads.samples.compensation.commissions.data.Tier.min#phrase.addition_setter = add {min} to the min of {this}
+com.ibm.ads.samples.compensation.commissions.data.Tier.min#phrase.navigation = {min} of {this}
+com.ibm.ads.samples.compensation.commissions.data.Tier.min#phrase.subtraction_setter = subtract {min} from the min of {this}
+com.ibm.ads.samples.compensation.commissions.data.Tier.rate#phrase.action = set the rate of {this} to {rate}
+com.ibm.ads.samples.compensation.commissions.data.Tier.rate#phrase.addition_setter = add {rate} to the rate of {this}
+com.ibm.ads.samples.compensation.commissions.data.Tier.rate#phrase.navigation = {rate} of {this}
+com.ibm.ads.samples.compensation.commissions.data.Tier.rate#phrase.subtraction_setter = subtract {rate} from the rate of {this}
+
+# com.ibm.ads.samples.compensation.commissions.data.Transaction
+com.ibm.ads.samples.compensation.commissions.data.Transaction#concept.documentation = Transaction details
+com.ibm.ads.samples.compensation.commissions.data.Transaction#concept.label = transaction
+com.ibm.ads.samples.compensation.commissions.data.Transaction.Transaction(double,com.ibm.ads.samples.compensation.commissions.data.Channel,com.ibm.ads.samples.compensation.commissions.data.Product)#phrase.navigation = a new {transaction} where {0, amount} {1, channel} {2, product}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.amount#phrase.action = set the amount of {this} to {amount}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.amount#phrase.addition_setter = add {amount} to the amount of {this}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.amount#phrase.navigation = {amount} of {this}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.amount#phrase.subtraction_setter = subtract {amount} from the amount of {this}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.channel#phrase.action = set the channel of {this} to {channel}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.channel#phrase.clearer = clear the channel of {this}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.channel#phrase.navigation = {channel} of {this}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.product#phrase.action = set the product of {this} to {product}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.product#phrase.clearer = clear the product of {this}
+com.ibm.ads.samples.compensation.commissions.data.Transaction.product#phrase.navigation = {product} of {this}

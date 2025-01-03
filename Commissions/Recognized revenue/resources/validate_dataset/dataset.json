@@ -1,0 +1,10 @@
+{
+  "operationId" : "b4c50683-aac9-41ea-bf30-d774042f88f3",
+  "body" : {
+    "transaction" : {
+      "channel" : "Indirect",
+      "amount" : 10000,
+      "product" : "Software"
+    }
+  }
+}
