@@ -106,7 +106,7 @@
         </informationRequirement>
     </decision>
     <decision id="node_7" name="Rental car maintenance">
-        <description>Indicate whether this car needs maintenance</description>
+        <description>Indicate whether this car needs maintenance....</description>
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Boolean" collection="false" name="Maintenance needed"/>
